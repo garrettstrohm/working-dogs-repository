@@ -13,38 +13,28 @@ h1 {
     color: #FFF;
 }
 
-.container {
-    position: relative;
-    text-align: center;
-    color: #000;
-    font-size: 32px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.centered {
-    position: absolute;
-    top: 30%;
-    bottom: 50%;
-    left: 5%;
-    right: 30%;
+#headerDog {
+    position: top; 
 }
 
 .header {
-    background-color: #BDBDBD;
+    background-color: #2B86FA;
+	background-image: url(./assets/dogs-header-2132-800x200.jpeg);
     background-position: center;
-    padding: 3px;
-    height: 50px;
-    border-radius: 5px 5px 0px 0px;
+    background-repeat: no-repeat;
+    padding: 20px;
+	text-align: center;
 }
 .header nav {
     text-align: right;
     margin-top: 25px;
-    padding: 0px 10px 0px 10px
+    padding: 0px 10px 0px 10px;
+    color: #fff;
 }
 .header nav a {
-    color: #000;
+    color: #fff;
 }
 
 .header nav a:hover {
-    background: #fff;
+    background: #FF4141;
 }
